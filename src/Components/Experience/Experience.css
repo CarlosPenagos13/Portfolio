@@ -1,0 +1,60 @@
+.title-Experience {
+  justify-content: center;
+  display: flex;
+  color: #0c002b;
+  border-bottom: 4.7px #e31b6d solid;
+  width: 50px;
+  align-items: center;
+  flex: 1;
+  margin: 0px auto;
+}
+
+.title-Experience h2 {
+  margin-block-start: 59px;
+  margin-block-end: 8px;
+  font-size: 39px;
+}
+
+.title-Experience-Description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #110239;
+}
+
+.title-Experience-Education {
+  color: #0c002b;
+  padding-left: 468px;
+}
+
+.description-dislike {
+  font-size: 24px;
+  margin-block-end: 15px;
+  color: #e31b6d;
+}
+
+.description-date {
+  font-size: 18px;
+  margin-block-start: 10px;
+  color: #0c002b;
+}
+
+.description-explicaction-title h4 {
+  font-size: 20px;
+  margin-block-end: 15px;
+  color: #009ada;
+}
+
+.description-explication {
+  font-size: 18px;
+  margin-block-start: 10px;
+  color: #0c002b;
+}
+
+.description-dislike-Container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 410px;
+  padding-right: 400px;
+}

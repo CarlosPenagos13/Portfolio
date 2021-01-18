@@ -1,0 +1,176 @@
+.title-contact {
+  justify-content: center;
+  display: flex;
+  color: white;
+  border-bottom: 4.7px #e31b6d solid;
+  width: 50px;
+  align-items: center;
+  flex: 1;
+  margin: 0px auto;
+  margin-bottom: 25px;
+}
+
+.background-color {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.title-contact h2 {
+  margin-block-start: 59px;
+  margin-block-end: 8px;
+  font-size: 39px;
+}
+
+.Contact-description {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.social {
+  display: flex;
+  padding-top: 35px;
+  padding-left: 500px;
+  padding-right: 500px;
+  justify-content: space-evenly;
+}
+
+.social p {
+  margin-top: 0;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #1eaee9;
+}
+
+.social-link {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.social-link.Facebook {
+  background-image: url(../../Images/facebook.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.social-link.LinkedIn {
+  background-image: url(../../Images/linkedin.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.social-link.Twitter {
+  background-image: url(../../Images/iconfinder_Rounded_Twitter5_svg_5282551.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+.social-link.GitHub {
+  background-image: url(../../Images/Exclusión\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.social-link-Container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px;
+}
+
+.placeholderFirst {
+  width: 500px;
+  background-color: inherit;
+  border-color: #e31b6d;
+  border-radius: 5px;
+  height: 28px;
+  color: #c0c0c0;
+}
+
+.placeholderSecond {
+  width: 500px;
+  background-color: inherit;
+  border-color: #e31b6d;
+  border-radius: 5px;
+  height: 28px;
+  color: #c0c0c0;
+}
+
+.firstAndSecondname {
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1600px;
+  padding: 0ch;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.firstAndSecondname p {
+  margin-block-end: 10px;
+  font-size: 22px;
+}
+
+.Message {
+  margin-right: 100px;
+  margin-left: 344px;
+}
+
+.Message p {
+  margin-block-end: 10px;
+  font-size: 22px;
+}
+
+.Email {
+  margin-right: 100px;
+  margin-left: 344px;
+}
+
+.placeholderEmail {
+  width: 1200px;
+  background-color: inherit;
+  border-color: #e31b6d;
+  border-radius: 5px;
+  height: 28px;
+  color: #c0c0c0;
+}
+
+.Email p {
+  margin-block-end: 10px;
+  font-size: 22px;
+}
+
+.placeholderMessage {
+  width: 1200px;
+  background-color: inherit;
+  border-color: #e31b6d;
+  border-radius: 5px;
+  height: 28px;
+  color: #c0c0c0;
+  height: 100px;
+  text-align: start;
+}
+
+.SendMessege {
+  color: #e31b6d;
+  font-size: 34px;
+  display: flex;
+  margin-left: 344px;
+  margin-top: 20px;
+}
+
+.Sendbutton {
+  display: flex;
+  margin-top: 48px;
+  justify-content: center;
+}
+
+.Sendbutton button {
+  width: 150px;
+  height: 25px;
+  background-color: inherit;
+  color: #e31b6d;
+  border-color: #e31b6d;
+  font-size: 15px;
+}

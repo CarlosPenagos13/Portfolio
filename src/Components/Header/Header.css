@@ -1,0 +1,68 @@
+.ContainerSebastian {
+  max-width: 90%;
+  flex: 1;
+  margin: 0px auto;
+  flex-wrap: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 150px;
+  flex-wrap: wrap;
+}
+
+.Container {
+  flex: 0;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 300px;
+  padding-left: 170px;
+  padding-top: 10px;
+  padding-right: 170px;
+  padding-bottom: 10px;
+}
+
+.Image {
+  background-image: url(../../Images/Fondo2.png);
+  background-size: cover;
+  height: 800px;
+  width: 1665px;
+  margin: 0;
+  padding: 69px 100px;
+  color: white;
+}
+
+.menu {
+  height: 20px;
+  padding: 140px 128px;
+  justify-content: left;
+  display: flex;
+}
+
+.menu ol {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu li {
+  padding: 0 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgSeb {
+  width: 42px;
+  float: left;
+  display: flex;
+}

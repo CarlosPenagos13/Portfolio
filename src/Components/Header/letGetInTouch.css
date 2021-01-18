@@ -1,0 +1,30 @@
+.flexbox {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  flex-shrink: 1;
+}
+
+.box {
+  width: 400px;
+  height: 60px;
+  border: 2px solid #e31b6d;
+  color: #e31b6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Containerbutton {
+  flex: 1;
+  margin: -120px auto;
+  justify-content: left;
+  height: 70px;
+  padding: 150px;
+}
