@@ -25,7 +25,8 @@
   padding-left: 10ch;
   margin-right: 50ch;
   padding-right: 10ch;
-  width: 1300px;
+  width: 70vw;
+  flex-wrap: wrap;
 }
 
 .Articles-Container-img {

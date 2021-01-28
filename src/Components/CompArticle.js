@@ -1,17 +1,17 @@
 import React from "react"
-import "./Articles.css"
-import Img1 from "../../Images/Img1.png"
-import Img2 from "../../Images/Img2.png"
-import Img3 from "../../Images/Img3.png"
-import Img4 from "../../Images/Im4.png"
-import Img5 from "../../Images/Img5.png"
-import Img from "../../Images/Img.png"
-import Compartir from "../../Images/IconShare.png"
-import Like from "../../Images/IconLike.png"
+import "../Components/Styles/Articles.css"
+import Img1 from "../Images/Img1.png"
+import Img2 from "../Images/Img2.png"
+import Img3 from "../Images/Img3.png"
+import Img4 from "../Images/Im4.png"
+import Img5 from "../Images/Img5.png"
+import Img from "../Images/Img.png"
+import Compartir from "../Images/IconShare.png"
+import Like from "../Images/IconLike.png"
 
 function Articles () {
     return(
-        <section id="articles" className="background-Articles">
+        <div className="background-Articles">
             <div className="title-Articles">
                 <h2>
                     Articles
@@ -159,7 +159,7 @@ function Articles () {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

@@ -174,3 +174,11 @@
   border-color: #e31b6d;
   font-size: 15px;
 }
+
+.Container-Footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-bottom: 80px;
+}

@@ -1,9 +1,9 @@
 import React from "react"
-import "./Experience.css"
+import "../Components/Styles/Experience.css"
 
 function Experience () {
     return(
-        <section id="experiences">
+        <div>
             <div className="title-Experience">
                 <h2>
                     Experiences
@@ -182,7 +182,7 @@ function Experience () {
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

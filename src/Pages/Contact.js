@@ -1,10 +1,11 @@
 import React from "react"
-import "./Contact.css"
-import Footer from "../../Components/Footer/Footer"
+import { Link } from "react-router-dom"
+import "../Components/Styles/Contact.css"
+import FooterImage from "../Images/Grupo 154.png"
 
-function Contact(){
+function Contact(){ 
     return(
-        <section id="contact" className="background-color">
+        <div className="background-color">
             <div className="title-contact">
                 <h2>
                     Contact
@@ -21,25 +22,25 @@ function Contact(){
             </div>
             <div className="social">
                 <div className="social-link-Container">
-                    <a target="/blank" href="https://www.facebook.com/?lang=en" className="social-link Facebook"></a>
+                    <Link target="/blank" href="https://www.facebook.com/?lang=en" className="social-link Facebook"></Link>
                     <p>
                         Facebook
                     </p>
                 </div>
                 <div className="social-link-Container">
-                <a target="/blank" href="https://co.linkedin.com/?lang=en" className="social-link LinkedIn"></a>
+                <Link target="/blank" href="https://co.linkedin.com/?lang=en" className="social-link LinkedIn"></Link>
                 <p>
                     LinkedIn
                 </p>
                 </div>
                 <div className="social-link-Container">
-                    <a target="/blank" href="https://twitter.com/?lang=en" className="social-link Twitter"></a>
+                    <Link target="/blank" href="https://twitter.com/?lang=en" className="social-link Twitter"></Link>
                     <p>
                         Twitter
                     </p>
                 </div>
                 <div  className="social-link-Container">
-                    <a target="/blank" href="https://github.com" className="social-link GitHub"></a>
+                    <Link target="/blank" href="https://github.com" className="social-link GitHub"></Link>
                     <p>
                         GitHub
                     </p>
@@ -79,8 +80,10 @@ function Contact(){
                     Send
                 </button>
             </div>
-            <Footer />
-        </section>
+        <div className="Container-Footer">
+            <img src={FooterImage} alt="MadeWithLoveByGaiden.com"/>
+        </div>
+        </div>
     )
 }
 
