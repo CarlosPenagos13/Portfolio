@@ -7,7 +7,6 @@
   align-items: center;
   flex: 1 1;
   margin: 0px auto;
-  margin-top: 50px;
   padding-top: 30px;
   margin-bottom: 20px;
 }
@@ -21,26 +20,8 @@
 .projects-first {
   display: flex;
   justify-content: center;
-  padding: 0px 500px;
-}
-
-.projects-third {
-  display: flex;
-  justify-content: center;
-  padding: 0px 500px;
-}
-
-.projects-first figure {
-  display: flex;
-  margin: 1ch;
-  padding: 1ch;
-}
-
-.projects-third figure {
-  display: flex;
-  margin: 1ch;
-  padding: 1ch;
-  padding-bottom: 50px;
+  padding: 0px 140px;
+  flex-wrap: wrap;
 }
 
 .Background-projects {

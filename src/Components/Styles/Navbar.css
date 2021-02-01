@@ -6,6 +6,7 @@
 
 .Navbar__brand {
   color: #ffffff;
+  text-decoration: none;
 
   display: flex;
   align-items: center;
@@ -13,7 +14,6 @@
 
 .Navbar__brand:hover {
   color: #ffffff;
-  text-decoration: none;
 }
 
 .Navbar__brand-logo {

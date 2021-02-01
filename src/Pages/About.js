@@ -1,67 +1,63 @@
 import React from "react"
-import Fast from "../Images/Fast.png"
-import Usable from "../Images/Usable.png"
-import Clean from "../Images/Clean.png"
-import Dynamic from "../Images/Dynamic.png"
 import CaraDeSeb from "../Images/Hero.png"
 import Percentage from "../Images/percentage.PNG"
 import "../Components/Styles/About.css"
 
-    function About (){
+class About extends React.Component {
+state={
+    about:[
+    {
+        image:"https://lh3.googleusercontent.com/zlt_5qMH0YrIp6YlqyX1rXh1PrILe5TyjX98Czt9ON2MD2iwym80fQxuxwv-1HYAbldQGU0=s97",
+        title:"Fast",
+        description1:"Fast load times and lag free",
+        description2:"interaction, my highest priority."
+    },
+    {
+        image:"https://lh3.googleusercontent.com/B6tmEsR-gpaUwwJcoXkXvhe9fhDWvUFqSvNy9t3ofPR2QGsEhPqU_ctlvds_EVNrxFhV=s97",
+        title:"Usable",
+        description1:"My layouts will work on any",
+        description2:"device, big or small."
+    },
+    {
+        image:"https://lh3.googleusercontent.com/zlt_5qMH0YrIp6YlqyX1rXh1PrILe5TyjX98Czt9ON2MD2iwym80fQxuxwv-1HYAbldQGU0=s97",
+        title:"Fast",
+        description1:"Fast load times and lag free",
+        description2:"interaction, my highest priority."
+    },
+    {
+        image:"https://lh3.googleusercontent.com/B6tmEsR-gpaUwwJcoXkXvhe9fhDWvUFqSvNy9t3ofPR2QGsEhPqU_ctlvds_EVNrxFhV=s97",
+        title:"Fast",
+        description1:"Fast load times and lag free",
+        description2:"interaction, my highest priority."
+    }
+    ]
+}
+    render(){
         return(
-            <section id="about">
+            <div id="about">
                 <div className="title-about">
                     <h2>
                         About
                     </h2>
                 </div>
                 <div className="percentage">
-                    <div className="percentageFast">
-                        <figure>
-                            <img src={Fast} alt="FastImg"/>
-                        </figure>
-                        <h3>
-                            Fast
-                        </h3>
-                        <p>
-                            Fast load times and lag free <br/> interaction, my highest priority.
-                        </p>
+                    {this.state.about.map((about) =>{
+                        return(        
+                            <div className="percentageFast">
+                                <figure>
+                                    <img width="149px" height="130px" src={about.image} alt="FastImg"/>
+                                </figure>
+                                <h3>
+                                    {about.title}
+                                </h3>
+                                <p>
+                                    {about.description1} <br/> {about.description2}
+                                </p>
+                            </div>
+                        )
+                    })}
                     </div>
-                    <div className="percentageUsable">
-                        <figure>
-                            <img src={Usable} alt="UsableImg"/>
-                                    </figure>
-                                    <h3>
-                                        Usable
-                                    </h3>
-                                    <p>
-                                        My layouts will work on any<br/> device, big or small.
-                                    </p>
-                                </div>
-                                <div className="percentageClean">
-                                    <figure>
-                                        <img src={Clean} alt="CleanImg"/>
-                                    </figure>
-                                    <h3>
-                                        Clean
-                                    </h3>
-                                    <p>
-                                        The cleanest code for readability <br/> and work in the future
-                                    </p>
-                                </div>
-                                <div className="percentageDynamic">
-                                    <figure>
-                                        <img src={Dynamic} alt="DynamicImg"/>
-                                    </figure>
-                                    <h3>
-                                        Dynamic
-                                    </h3>
-                                    <p>
-                                        Websites don't have to be static, I <br/> love making pages come to life.
-                                    </p>
-                                </div>
-                    </div>
-                            <div className="HeroSeb">
+                    <div className="HeroSeb">
                         <div>
                             <figure>
                                 <img src={CaraDeSeb} alt=""/>
@@ -81,8 +77,9 @@ import "../Components/Styles/About.css"
                             
                         </div>
                     </div>
-            </section>
+            </div>
         )
     }
+}
 
 export default About

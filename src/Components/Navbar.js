@@ -11,7 +11,7 @@ class Navbar extends React.Component{
                 <a className="Navbar__brand" href="/">
                     <img className="Navbar__brand-logo" src={logo} alt="Logo" />
                     <span>Sebastian</span>
-                    <span>.</span>
+                    <span>__  </span>
                     <span>Aldana</span>
                 </a>
             </div>
