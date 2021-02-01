@@ -57,6 +57,10 @@
   align-items: center;
 }
 
+.link:hover {
+  color: #e31b6d;
+}
+
 .imgSeb {
   width: 42px;
   float: left;

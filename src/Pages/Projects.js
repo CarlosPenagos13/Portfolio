@@ -5,31 +5,31 @@ class Projects extends React.Component {
     state = {
         projects:[
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             },
             {
-                image:"https://www.esan.edu.pe/apuntes-empresariales/2016/10/25/proyectoempresarial_principal.jpg"
+                image:"https://d9b6rardqz97a.cloudfront.net/wp-content/uploads/2019/10/23221838/Junta_Directiva-482x390.jpg"
             }
         ]
     }
@@ -41,13 +41,22 @@ class Projects extends React.Component {
                         Projects
                     </h2>
                 </div>
-                <div className="projects-first">
+                <div className="Container-projects">
                 {this.state.projects.map((projects) => {
                 return(
-                    <div>
-                        <figure>
-                            <img src={projects.image} width="320px"height="250px" alt="Projects.img" />
+                    <div className="projects">
+                        <figure className="projects-image">
+                            <img src={projects.image} alt="Projects.img" />
                         </figure>
+                        <span className="projects-overlay">
+                            <p className="Grid-Projects">
+                                <span className="NamePro">Project Name</span>
+                                <span className="React">React JS / Node</span>
+                            </p>
+                            <button className="button-Learn">
+                                Learn More
+                            </button>
+                        </span>
                     </div>
                     )
                 })}
